@@ -17,7 +17,7 @@ services:
       ports:
         - 9000:9000
         - 9443:9443
-      
+
     nginxmanager:
       image: jc21/nginx-proxy-manager:latest
       container_name: nxmanager
